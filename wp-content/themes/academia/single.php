@@ -11,7 +11,7 @@ get_header();
 ?>
 
 	<main id="primary" class="site-main">
-
+		<h1 class="mt-5 mb-5">Pagina do post individual</h1>
 		<?php
 		while ( have_posts() ) :
 			the_post();
