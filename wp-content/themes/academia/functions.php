@@ -146,6 +146,8 @@ function academia_scripts() {
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
+	require_once get_template_directory() . '/inc/scripts.php';
+	require_once get_template_directory() . '/inc/styles.php';
 }
 add_action( 'wp_enqueue_scripts', 'academia_scripts' );
 
