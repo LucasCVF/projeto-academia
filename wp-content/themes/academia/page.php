@@ -17,9 +17,15 @@ get_header();
 
 	<main id="primary" class="site-main">
 
-		<h1>home</h1>
-		<h1>home</h1>
-		<h1>home</h1>
+		<h1>HOME</h1>
+		<h1>HOME</h1>
+		<h1>HOME</h1>
+		<h1>HOME</h1>
+		<h1>HOME</h1>
+		<h1>HOME</h1>
+		<h1>HOME</h1>
+		<h1>HOME</h1>
+		<h1>HOME</h1>
 
 	</main><!-- #main -->
 

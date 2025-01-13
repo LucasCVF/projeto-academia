@@ -6,6 +6,12 @@ wp_enqueue_style(
     '5.3.3',
     'all'
 );
+wp_enqueue_style(
+    'style', get_template_directory_uri().'/assets/css/header.css',
+    [],
+    '',
+    'all'
+);
 
 
 

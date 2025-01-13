@@ -23,9 +23,47 @@
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 <div id="page" class="site">
-
 	<header>
-		<h1>Header</h1>
-		<h1>Header</h1>
-		<h1 class="mb-5">Header</h1>
-	</header><!-- #masthead -->
+		<nav class="content row navbar navbar-expand-lg">
+			<div class="col-4">
+				<a class="navbar-brand" href="<?php echo home_url(); ?>">
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-clubfit.png" alt="Logo do Site" class="logo-nav">
+				</a>
+			</div>
+			<div class="col-8">
+				<div class="container-fluid">
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a class="nav-link" aria-current="page" href="#sobre">Sobre nós</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" aria-current="page" href="#matricula">Matricule-se</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" aria-current="page" href="#modalidade">Modalidades</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#contato">Contato</a>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#unidade" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+									Unidades	
+								</a>
+								<ul class="dropdown-menu">
+									<li><a class="dropdown-item" href="#">Unidade 1</a></li>
+									<li><hr class="dropdown-divider"></li>
+									<li><a class="dropdown-item" href="#">Unidade 2</a></li>
+									<li><hr class="dropdown-divider"></li>
+									<li><a class="dropdown-item" href="#">Unidade 3</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</header>
