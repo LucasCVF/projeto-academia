@@ -25,29 +25,29 @@
 <div id="page" class="site">
 	<header>
 		<nav class="content row navbar navbar-expand-lg">
-			<div class="col-4">
+			<div class="col-2">
 				<a class="navbar-brand" href="<?php echo home_url(); ?>">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-clubfit.png" alt="Logo do Site" class="logo-nav">
 				</a>
 			</div>
-			<div class="col-8">
+			<div class="col-10">
 				<div class="container-fluid">
 					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
 					</button>
-					<div class="collapse navbar-collapse" id="navbarSupportedContent">
-						<ul class="navbar-nav">
+					<d	iv class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav mx-auto">
 							<li class="nav-item">
-								<a class="nav-link" aria-current="page" href="#sobre">Sobre nós</a>
+								<a class="nav-link" aria-current="page" href="#matricula">Modalidades</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" aria-current="page" href="#matricula">Matricule-se</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" aria-current="page" href="#modalidade">Modalidades</a>
+								<a class="nav-link" aria-current="page" href="#modalidade">Planos</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="#contato">Contato</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#contato">Sobre nós</a>
 							</li>
 							<li class="nav-item dropdown">
 								<a class="nav-link dropdown-toggle" href="#unidade" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -62,6 +62,20 @@
 								</ul>
 							</li>
 						</ul>
+						<ul class="navbar-nav mx-auto">
+							<li class="nav-item">
+								<a class="nav-link" aria-current="page" href="#news">Avisos e comunicados</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" aria-current="page" href="#visita">Clubfit news</a>
+							</li>
+						</ul>
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a class="nav-link" id="edit-item" aria-current="page" href="#visita">Agendar visita</a>
+							</li>
+						</ul>
+							
 					</div>
 				</div>
 			</div>
