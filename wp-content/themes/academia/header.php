@@ -20,22 +20,19 @@
 	<?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
+<body style= "background-image: url('<?php echo get_template_directory_uri(); ?>/assets/images/home-content.jpg');background-size: contain; background-repeat: no-repeat;"> <?php body_class(); ?>	
 <?php wp_body_open(); ?>
 <div id="page" class="site">
 	<header>
-		<nav class="content row navbar navbar-expand-lg">
-			<div class="col-2">
-				<a class="navbar-brand" href="<?php echo home_url(); ?>">
+		<nav class="content navbar navbar-expand-lg">
+				<a href="<?php echo home_url(); ?>">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-clubfit.png" alt="Logo do Site" class="logo-nav">
 				</a>
-			</div>
-			<div class="col-10">
-				<div class="container-fluid">
-					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
+				<div class="container-fluid text-center">
+					<button class="navbar-toggler position-toggle-icon" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon "></span>
 					</button>
-					<d	iv class="collapse navbar-collapse" id="navbarSupportedContent">
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
 						<ul class="navbar-nav mx-auto">
 							<li class="nav-item">
 								<a class="nav-link" aria-current="page" href="#matricula">Modalidades</a>
