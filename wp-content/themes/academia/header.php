@@ -20,7 +20,7 @@
 	<?php wp_head(); ?>
 </head>
 
-<body style= "background-image: url('<?php echo get_template_directory_uri(); ?>/assets/images/home-content.jpg');background-size: contain; background-repeat: no-repeat;"> <?php body_class(); ?>	
+<body <?php body_class(); ?>	
 <?php wp_body_open(); ?>
 <div id="page" class="site">
 	<header>

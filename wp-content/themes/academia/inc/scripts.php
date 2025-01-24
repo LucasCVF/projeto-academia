@@ -6,3 +6,10 @@ wp_enqueue_script(
     true
 );
 
+wp_enqueue_script(
+    'jquery', get_template_directory_uri().'/assets/added/jquery/jquery.js',
+    [],
+    '3.7.1',
+    true
+);
+
