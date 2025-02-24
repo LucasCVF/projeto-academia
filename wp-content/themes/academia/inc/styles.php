@@ -8,6 +8,13 @@ wp_enqueue_style(
 );
 
 wp_enqueue_style(
+    'fontawesome', get_template_directory_uri().'/assets/added/fontawesome/css/all.min.css',
+    [],
+    '6.7.2',
+    'all'
+);
+
+wp_enqueue_style(
     'style', get_template_directory_uri().'/assets/css/header.css',
     [],
     '1.0.0',
@@ -27,6 +34,8 @@ wp_enqueue_style(
     '1.0.0',
     'all'
 );
+
+
 
 
 

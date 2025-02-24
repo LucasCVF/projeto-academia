@@ -35,10 +35,10 @@
 					<div class="collapse navbar-collapse" id="navbarSupportedContent">
 						<ul class="navbar-nav mx-auto">
 							<li class="nav-item">
-								<a class="nav-link" aria-current="page" href="#matricula">Modalidades</a>
+								<a class="nav-link" aria-current="page" href="#modalidade">Modalidades</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" aria-current="page" href="#modalidade">Planos</a>
+								<a class="nav-link" aria-current="page" href="#planos">Planos</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="#contato">Contato</a>
