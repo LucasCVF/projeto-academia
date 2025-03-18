@@ -40,23 +40,14 @@
 							<li class="nav-item">
 								<a class="nav-link" aria-current="page" href="#planos">Planos</a>
 							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#contato">Contato</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#contato">Sobre nós</a>
-							</li>
 							<li class="nav-item dropdown">
-								<a class="nav-link dropdown-toggle" href="#unidade" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-									Unidades	
-								</a>
-								<ul class="dropdown-menu">
-									<li><a class="dropdown-item" href="#">Unidade 1</a></li>
-									<li><hr class="dropdown-divider"></li>
-									<li><a class="dropdown-item" href="#">Unidade 2</a></li>
-									<li><hr class="dropdown-divider"></li>
-									<li><a class="dropdown-item" href="#">Unidade 3</a></li>
-								</ul>
+								<a class="nav-link" href="#unidade">Unidades</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#sobre">Sobre nós</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#contat">Contato</a>
 							</li>
 						</ul>
 						<ul class="navbar-nav mx-auto">
