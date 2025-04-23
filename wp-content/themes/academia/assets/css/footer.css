@@ -1,0 +1,63 @@
+.bg-footer{
+    background-color: black;
+    color: white;
+    min-height: 500px;
+    max-height: 800px;
+
+}
+
+.page{
+    margin: 0px !important;
+}
+
+footer h1{
+    padding-top: 100px;
+}
+
+footer hr{
+    border: none;
+    background-color: yellow;
+    opacity: unset;
+    border: 1px solid yellow;
+    margin: 0px 130px 30px 130px;
+}
+footer div hr{
+    border: none;
+    background-color: rgb(255, 255, 255);
+    opacity: unset;
+    border: 1px solid rgb(255, 255, 255);
+    margin: 0px 240px 15px 240px;
+}
+
+.footer-edit{
+    list-style: none;
+    margin-top: 30px;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.footer-edit .footer-link {
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    padding: 5px;
+}
+
+.footer-edit .footer-link:hover {
+    color: white;
+    border: solid yellow 2px;
+    border-radius: 5px;
+}
+
+.footer-edit .footer-link:focus {
+    color: white;
+    border: solid yellow 2px;
+    border-radius: 5px;
+}
+
+.footer-edit .footer-link.active {
+    color: white;
+    border: solid yellow 2px;
+    border-radius: 5px;
+}
+

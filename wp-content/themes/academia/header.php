@@ -47,7 +47,7 @@
 								<a class="nav-link" href="#sobre">Sobre nós</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#contat">Contato</a>
+								<a class="nav-link" href="#contato">Contatos</a>
 							</li>
 						</ul>
 						<ul class="navbar-nav mx-auto">

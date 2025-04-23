@@ -35,6 +35,13 @@ wp_enqueue_style(
     'all'
 );
 
+wp_enqueue_style(
+    'footer-style', get_template_directory_uri().'/assets/css/footer.css',
+    [],
+    '1.0.0',
+    'all'
+);
+
 
 
 
