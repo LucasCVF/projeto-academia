@@ -39,6 +39,7 @@
   background-color: white; 
   color: black;
   border-radius: 0;
+  border: 0px;
 }
 
 .card-edit-plan i{
@@ -70,12 +71,13 @@ hr{
 .card-uni {
   color: black;
   background: white;
-  border: solid 4px white;
+  border: solid 4px black;
 }
 .card-uni:hover {
   color: black;
   background: white;
   border: solid 4px yellow;
+  transition: border 0.4s;
 }
 
 .btn-uni {

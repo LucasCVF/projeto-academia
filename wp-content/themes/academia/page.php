@@ -14,7 +14,6 @@
 
 get_header();
 ?>
-
 	<main id="primary" class="site-main">
 		<article id="modalidade" class="content-home" style= "background-image: url('<?php echo get_template_directory_uri(); ?>/assets/images/home-content.jpg');background-size: cover; background-repeat: no-repeat;">
 			<section>
@@ -23,7 +22,7 @@ get_header();
 						<div class="carousel-item active">
 							<div class="d-block carousel-edit">
 								<div class="row">
-									<div class="col-10">
+									<div class="col-12 col-lg-10">
 										<h1>Transforme sua vida hoje!</h1>
 										<h5>Aqui, você encontra tudo o que precisa para alcançar seus objetivos. Equipamentos modernos, aulas dinâmicas e suporte profissional para todas as etapas do seu treino.</h5>
 									</div>
@@ -37,7 +36,7 @@ get_header();
 						<div class="carousel-item">
 							<div class="d-block carousel-edit">
 								<div class="row">
-									<div class="col-10">
+									<div class="col-12 col-lg-10">
 										<h1>Junte-se à nossa comunidade fitness</h1>
 										<h5>Mais do que uma academia, somos uma família. Ambiente motivador, professores capacitados e atividades personalizadas para você se sentir em casa</h5>
 									</div>
@@ -50,7 +49,7 @@ get_header();
 						<div class="carousel-item">
 							<div class="d-block carousel-edit">
 								<div class="row">
-									<div class="col-10">
+									<div class="col-12 col-lg-10">
 									<h1>Resultados que você merece</h1>
 									<h5>Com dedicação e o acompanhamento certo, seus resultados estão garantidos. Venha conhecer nossos planos e dar o primeiro passo para uma vida saudável.</h5>
 									</div>
@@ -106,7 +105,7 @@ get_header();
 			<section class="card-content-plan">
 				<div class="card card-edit-plan">
 					<div class="card-body row">
-						<div class="col-5">	
+						<div class="col-12 col-xl-5">	
 							<h1>Diario</h1>
 							<div class="mb-3" style="background: yellow; height:5px;"> </div>
 							<p class="card-text">Ideal para quem quer treinar sem compromisso! Acesse todas as nossas instalações e aproveite um dia de treino completo.</p>
@@ -114,10 +113,10 @@ get_header();
 							<div class="mb-3" style="background: yellow; height:5px;"> </div>
 							<p class="card-text">Treine sem limites durante 30 dias! Tenha acesso a todas as modalidades e equipamentos, além de acompanhamento personalizado.</p>
 						</div>
-						<div class="col-2">
-							<i class="fa-solid fa-money-check-dollar fa-10x m-5"></i>
+						<div class="col-12 text-center col-xl-2">
+							<i class="fa-solid fa-money-check-dollar fa-10x mt-5"></i>
 						</div>
-						<div class="col-5">
+						<div class="col-12 col-xl-5">
 							<h1>Semestral</h1>
 							<div class="mb-3" style="background: yellow; height:5px;"> </div>
 							<p class="card-text">Seis meses para transformar sua rotina! Acesso ilimitado a todas as modalidades, suporte especializado e condições especiais para você manter o foco nos seus objetivos.</p>
@@ -194,9 +193,9 @@ get_header();
 		<article id="sobre" class="background-article">
 			<hr style="height: 50px;" class="edit-hr">
 			<h1 class="text-center m-5 color-h1">Sobre nós</h1>
-			<section class="card-content-plan">
+			<section class="card-content-plan mb-3">
 				<div class="card card-edit-plan">
-					<div class="card-body row m-1">
+					<div class="card-body row">
 						<div class="col-12 col-md-6 col-xxl-3">
 							<div class="card-sobre-nos w-100 h-100 m-2">
 								<div class="card__content">
@@ -246,7 +245,6 @@ get_header();
 											<li>Comunidade e Parceria</li>
 											<li>Respeito e Inclusão</li>
 											<li>Incentivamo a criação de vínculos para juntos irmos mais longe</li>
-											
 										</ul>
 									</p>
 								</div>

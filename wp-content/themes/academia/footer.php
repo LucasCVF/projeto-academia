@@ -11,10 +11,10 @@
 
 ?>
 
-	<footer id="contato" class="site-footer bg-footer text-center">
+	<footer id="contato" class="site-footer bg-footer text-center footer-response">
 		<h1>Entre em contato</h1>
 		<hr>
-		<div class="row">
+		<div class="row mb-5">
 			<div class="col-12 col-md-4">
 				<h4>Menus</h4>
 				<ul class="footer-edit">
@@ -55,36 +55,30 @@
 			</div>
 
 			<div class="col-12 col-md-4">
-				<h4>Social</h4>
+				<h4>Horários de Funcionamento</h4>
 				<ul class="footer-edit">
-					<li class="p-1">
-						<i class="fa-brands fa-facebook fa-xl"></i>
-					</li>
-					<li class="p-2">
-						<i class="fa-brands fa-square-instagram fa-xl"></i>
-					</li>
-					<li class="p-2">
-						<i class="fa-brands fa-tiktok fa-xl"></i>
-					</li>
-					<li class="p-1">
-						<i class="fa-brands fa-youtube fa-xl"></i>
-					</li>
-					</ul>
+					<p>Seg a Sex: 6h às 22h</p>
+					<p>Sábado: 8h às 18h</p>
+					<p>Domingo: 9h às 13h</p>
+					<p>Feriados: 9h às 13h</p>
 			</div>
 
 			<div>
 				<hr class="mt-2">
 			</div>
 
-			<div class="row mb-4">
-				<div class="col-8">
-					Todos os direitos Reservados | ClubFit Academia ® – 2025 | CNPJ: 01.100.101/0001-11
-				</div>
-				<div class="col-4">
-					<i class="fa-brands fa-facebook fa-xl p-2"></i>
-					<i class="fa-brands fa-square-instagram fa-xl p-2"></i>
-					<i class="fa-brands fa-tiktok fa-xl p-2"></i>
-					<i class="fa-brands fa-youtube fa-xl p-2"></i>
+			<div class="col-12">
+				<div class="row">
+					<div class="col-lg-8 col-md-12">
+						<p>Todos os direitos Reservados | ClubFit Academia ® – 2025 | CNPJ: 01.100.101/0001-11</p>
+						
+					</div>
+					<div class="col-lg-4 col-md-12">
+						<i class="fa-brands fa-facebook fa-xl p-2"></i>
+						<i class="fa-brands fa-square-instagram fa-xl p-2"></i>
+						<i class="fa-brands fa-tiktok fa-xl p-2"></i>
+						<i class="fa-brands fa-youtube fa-xl p-2"></i>
+					</div>
 				</div>
 			</div>
 		</div>		

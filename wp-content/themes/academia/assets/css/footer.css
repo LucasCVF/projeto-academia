@@ -2,8 +2,6 @@
     background-color: black;
     color: white;
     min-height: 500px;
-    max-height: 800px;
-
 }
 
 .page{
@@ -21,6 +19,7 @@ footer hr{
     border: 1px solid yellow;
     margin: 0px 130px 30px 130px;
 }
+
 footer div hr{
     border: none;
     background-color: rgb(255, 255, 255);
@@ -61,3 +60,13 @@ footer div hr{
     border-radius: 5px;
 }
 
+@media (max-width: 916px) {
+body {
+    overflow-x: hidden;
+}
+
+.footer-response {
+    max-width: 100%;
+    overflow: hidden;
+    }
+}
