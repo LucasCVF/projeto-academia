@@ -11,46 +11,43 @@
  *
  * @package academia
  */
-
 get_header();
+
 ?>
 
 	<main id="primary" class="site-main">
+	<?php
+		$args = array(
+			'post_type' => 'post', // ou outro tipo de post se não for o padrão
+			'posts_per_page' => 10, // 10 exibe posts
+		);
 
-		<?php
-		if ( have_posts() ) :
+		$loop = new WP_Query( $args );
 
-			if ( is_home() && ! is_front_page() ) :
-				?>
-				<header>
-					<h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
-				</header>
-				<?php
-			endif;
+		if ( $loop->have_posts() ) :
+			while ( $loop->have_posts() ) : $loop->the_post(); ?>
+			
+				<article class="post-item">
+					<div class="card mb-4">
+						<div class="card-body">
+							<h2 class="card-title"><?php the_title(); ?></h2>
+							<p class="card-text">Publicado em <?php echo get_the_date(); ?> às <?php echo get_the_time(); ?></p>
+							<p class="card-text"><?php the_excerpt(); ?></p>
+							<a href="<?php the_permalink(); ?>" class="btn btn-primary">Leia mais</a>
+						</div>
+					</div>
 
-			/* Start the Loop */
-			while ( have_posts() ) :
-				the_post();
+				</article>
+				<hr>
 
-				/*
-				 * Include the Post-Type-specific template for the content.
-				 * If you want to override this in a child theme, then include a file
-				 * called content-___.php (where ___ is the Post Type name) and that will be used instead.
-				 */
-				get_template_part( 'template-parts/content', get_post_type() );
-
-			endwhile;
-
-			the_posts_navigation();
-
+			<?php endwhile;
+			wp_reset_postdata();
 		else :
-
-			get_template_part( 'template-parts/content', 'none' );
-
+			echo '<p>Nenhum post encontrado.</p>';
 		endif;
-		?>
+	?>
+</main>
 
-	</main><!-- #main -->
 
 <?php
 get_sidebar();

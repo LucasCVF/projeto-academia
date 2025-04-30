@@ -41,6 +41,13 @@ wp_enqueue_style(
     '1.0.0',
     'all'
 );
+wp_enqueue_style(
+    'post-style', get_template_directory_uri().'/assets/css/post.css',
+    [],
+    '1.0.0',
+    'all'
+);
+
 
 
 

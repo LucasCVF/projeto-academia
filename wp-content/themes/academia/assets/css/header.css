@@ -9,6 +9,7 @@ header {
     font-weight: 600;
     font-size: 16px;
 }
+/* Adicione no CSS para garantir que os links no header sejam clicáveis */
 
 .navbar-collapse {
     color: yellow;

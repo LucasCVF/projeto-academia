@@ -13,7 +13,7 @@
 <!doctype html>
 <html <?php language_attributes(); ?>>
 <head>
-	<meta charset="<?php bloginfo( 'charset' ); ?>">
+	<meta charset="<?php bloginfo( 'charset-UTF-8' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 
@@ -52,10 +52,10 @@
 						</ul>
 						<ul class="navbar-nav mx-auto">
 							<li class="nav-item">
-								<a class="nav-link" aria-current="page" href="#news">Avisos e comunicados</a>
+								<a class="nav-link" aria-current="page" href="">Avisos e comunicados</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" aria-current="page" href="#visita">Clubfit news</a>
+								<a class="nav-link" aria-current="page" href="<?php echo get_permalink( get_page_by_title( 'ClubFit News' ) ); ?>">Clubfit news</a>
 							</li>
 						</ul>
 						<ul class="navbar-nav">
@@ -66,6 +66,5 @@
 							
 					</div>
 				</div>
-			</div>
 		</nav>
 	</header>

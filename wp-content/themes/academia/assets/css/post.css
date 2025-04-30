@@ -1,0 +1,17 @@
+.navpost{
+
+}
+header.page-title-header {
+    margin-top: 0;
+    padding-top: 0;
+    position: relative;
+    z-index: 1;
+    background: transparent;
+  }
+
+/* Garantir que o título do post não se sobreponha ao header fixo */
+.entry-header {
+    position: relative;
+    background: transparent;
+
+}
