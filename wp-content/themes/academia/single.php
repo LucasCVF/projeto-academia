@@ -7,7 +7,8 @@
  * @package academia
  */
 
- get_header();
+ get_header('blog');
+
 ?>
 
 	<main id="primary" class="site-main">

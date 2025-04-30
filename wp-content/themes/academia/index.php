@@ -11,7 +11,7 @@
  *
  * @package academia
  */
-get_header();
+get_header('blog');
 
 ?>
 
